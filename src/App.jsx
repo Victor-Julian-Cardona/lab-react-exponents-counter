@@ -1,13 +1,14 @@
 import "./App.css";
 import Counter from "./components/Counter";
-import ExponentTwo from "./components/ExponentTwo";
-import ExponentThree from "./components/ExponentThree";
-import ExponentFour from "./components/ExponentFour";
 import ExponentFive from "./components/ExponentFive";
+import ExponentFour from "./components/ExponentFour";
 import ExponentSix from "./components/ExponentSix";
+import ExponentThree from "./components/ExponentThree";
+import ExponentTwo from "./components/ExponentTwo";
 
 
 function App () {
+  //const [count, setCount] = useState(0);
   return (
     <div className="App">
       <h2><em>Counter</em></h2>
