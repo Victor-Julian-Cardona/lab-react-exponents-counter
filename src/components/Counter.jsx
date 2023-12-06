@@ -1,6 +1,6 @@
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
+const Counter = ({ count, setCount}) => {
+  //const [count, setCount] = useState(0);
 
   const decrement = () => setCount((prevCount) => prevCount - 1);
   const increment = () => setCount((prevCount) => prevCount + 1);
